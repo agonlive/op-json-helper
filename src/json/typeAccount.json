@@ -1,0 +1,99 @@
+[
+    {
+       "name":"Basic",
+       "maximumLeverage":"1:100",
+       "minimumDeposit":"€250",
+       "maximumSpread":"--",
+       "products":"--",
+       "currency":"--",
+       "minimumPosition":"--",
+       "supportedEA":"yes",
+       "depositingMethod":"--",
+       "withdrawalMethod":"--",
+       "commission":"--"
+    },
+    {
+       "name":"Silver",
+       "maximumLeverage":"1:100",
+       "minimumDeposit":"€5000",
+       "maximumSpread":"--",
+       "products":"--",
+       "currency":"--",
+       "minimumPosition":"--",
+       "supportedEA":"yes",
+       "depositingMethod":"--",
+       "withdrawalMethod":"--",
+       "commission":"--"
+    },
+    {
+       "name":"Gold",
+       "maximumLeverage":"1:200",
+       "minimumDeposit":"€20000",
+       "maximumSpread":"--",
+       "products":"--",
+       "currency":"--",
+       "minimumPosition":"--",
+       "supportedEA":"yes",
+       "depositingMethod":"--",
+       "withdrawalMethod":"--",
+       "commission":"--"
+    },
+    {
+       "name":"Platinum",
+       "maximumLeverage":"1:200",
+       "minimumDeposit":"€50000",
+       "maximumSpread":"--",
+       "products":"--",
+       "currency":"--",
+       "minimumPosition":"--",
+       "supportedEA":"yes",
+       "depositingMethod":"--",
+       "withdrawalMethod":"--",
+       "commission":"--"
+    }
+ ]
+
+ [
+    {
+       "name":"RAW",
+       "benchmark":"--",
+       "maximumLeverage":"1:400",
+       "maximumDeposit":"3000$",
+       "maximumSpread":"from 0",
+       "products":"Major currency pairs, rare currency pairs, commodities and stock index CFDs and other products",
+       "currency":"--",
+       "minimumPosition":"0.01",
+       "supportedEA":"yes",
+       "depositingMethod":"(12+) PerfectMoney USDT Neteller Skrill",
+       "withdrawalMethod":"(12+) PerfectMoney USDT Neteller Skrill",
+       "commission":"--"
+    },
+    {
+       "name":"PRO",
+       "benchmark":"--",
+       "maximumLeverage":"1:400",
+       "maximumDeposit":"3000$",
+       "maximumSpread":"from 0",
+       "products":"Major currency pairs, rare currency pairs, commodities and stock index CFDs and other products",
+       "currency":"--",
+       "minimumPosition":"0.01",
+       "supportedEA":"yes",
+       "depositingMethod":"(12+) PerfectMoney USDT Neteller Skrill",
+       "withdrawalMethod":"(12+) PerfectMoney USDT Neteller Skrill",
+       "commission":"--"
+    },
+    {
+       "name":"STANDARD",
+       "benchmark":"--",
+       "maximumLeverage":"1:400",
+       "maximumDeposit":"3000$",
+       "maximumSpread":"from 0",
+       "products":"Major currency pairs, rare currency pairs, commodities and stock index CFDs and other products",
+       "currency":"--",
+       "minimumPosition":"0.01",
+       "supportedEA":"yes",
+       "depositingMethod":"(12+) PerfectMoney USDT Neteller Skrill",
+       "withdrawalMethod":"(12+) PerfectMoney USDT Neteller Skrill",
+       "commission":"--"
+    }
+ ]
