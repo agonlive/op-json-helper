@@ -213,12 +213,27 @@ export default function SoftwareForm() {
                         leftSection={<IconPlus size={14} />}
                         onClick={() =>
                             form.insertListItem('dataLicense', {
-                                fullName: '',
-                                shortName: '',
-                                status: '',
-                                regulatedBy: '',
-                                licenseType: '',
-                                licenseNo: '',
+                                name: "",
+                                tradingTools: 1,
+                                simulatedTrading: 1,
+                                copyTrade: 1,
+                                EA: 1,
+                                signal: 1,
+                                customChart: 1,
+                                systemCompatibility: "window", // android, ios, macos
+                                userexperience: "smooth", // smooth , bad
+                                linkPlatform: "",
+                                server: [
+                                    //    {
+                                    //       nameServer:"4xCube-Demo"
+                                    //    },
+                                    //    {
+                                    //       nameServer:"4xCube-Demo"
+                                    //    },
+                                    //    {
+                                    //       nameServer:"4xCube-Demo"
+                                    //    }
+                                ]
                             })
                         }
                     >

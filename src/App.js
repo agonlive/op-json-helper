@@ -3,6 +3,7 @@ import "./App.css";
 import LicenseForm from "./components/LicenseForm";
 import TypeAccountForm from "./components/TypeAccountForm";
 import SoftwareForm from "./components/SoftwareForm";
+import ServerForm from "./components/ServerForm";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <LicenseForm />
         <TypeAccountForm />
         <SoftwareForm />
+        <ServerForm />
       </div>
     </div>
   );
