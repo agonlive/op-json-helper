@@ -125,6 +125,15 @@ export default function SoftwareForm() {
                 <Input
                     withAsterisk
                     size="sm"
+                    placeholder={`signal`}
+                    style={{ flex: 1 }}
+                    {...form.getInputProps(`dataLicense.${index}.signal`)}
+                />
+            </Group>
+            <Group key={item.key} className='my-0' gap="xs" >
+                <Input
+                    withAsterisk
+                    size="sm"
                     placeholder={`User Experience`}
                     style={{ flex: 1 }}
                     {...form.getInputProps(`dataLicense.${index}.userexperience`)}
@@ -139,24 +148,8 @@ export default function SoftwareForm() {
                     {...form.getInputProps(`dataLicense.${index}.linkPlatform`)}
                 />
             </Group>
-            {/* <Group key={item.key} className='my-0' gap="xs" >
-                <Input
-                    withAsterisk
-                    size="sm"
-                    placeholder={`signal`}
-                    style={{ flex: 1 }}
-                    {...form.getInputProps(`dataLicense.${index}.signal`)}
-                />
-            </Group>
-            <Group key={item.key} className='my-0' gap="xs" >
-                <Input
-                    withAsterisk
-                    size="sm"
-                    placeholder={`signal`}
-                    style={{ flex: 1 }}
-                    {...form.getInputProps(`dataLicense.${index}.signal`)}
-                />
-            </Group> */}
+
+
             <div>
                 <ActionIcon
                     color="red"
